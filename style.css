@@ -1,0 +1,183 @@
+@font-face{
+  font-family: rubik;
+  src: url(freelance/Rubik-VariableFont_wght.ttf);
+}
+
+
+body{
+  
+ 
+ background-image: url(IMG_20230602_212753.jpg);
+ margin:0px;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ border: 1px solid black ;
+ width:100%;
+ height:100vh;
+ background-size: 100vw 100vh;
+ background-color: white;
+  
+}
+
+.welcome{
+  color: beige;
+  height:40vh;
+  width:60vw;
+  font-size: 18vh;
+  text-align: center;
+  margin-top: 10rem;
+  margin-left: 35%;
+  /* border: 1px solid black; */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-shadow:rgb(159, 154, 154) 10px 10px 50px;
+}
+
+.welcome:hover{
+  color:white;
+  transition-duration: 1s;
+  transition: ease-in-out 1s ;
+  
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.logo {
+  margin-right: 20px;
+  /* width:1vw; */
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.logo {
+  animation: blink 1s infinite;
+}
+
+.baroda-logo{
+  width:80px;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 6vh;
+  display: flex;
+}
+
+ul.navbar li {
+  margin-right: 10px;
+}
+
+ul.navbar li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: border-bottom 0.3s;
+}
+
+/* SVG icon styles */
+ul.navbar li a svg {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* Underline effect on hover */
+ul.navbar li a:hover {
+  border-bottom: 2px solid #333;
+  position: relative;
+}
+
+ul.navbar li a:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  animation: loading 0.5s linear forwards;
+}
+/* ul.navbar li a.active {
+  border-bottom: 2px solid #333;
+  position: relative;
+} */
+
+/* ul.navbar li a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+} */
+
+
+@keyframes loading {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+h1{
+  font-size: 8vh;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+h2{
+  font-size: 5vh;
+  text-decoration: underline;
+}
+
+p{
+  font-size: 4vh;
+}
+
+.baroda-m-t{
+  font-size: 3vh;
+}
+
+
+.Main-data{
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #5b6467;
+  /* background-color: #000000; */
+  background-image: linear-gradient(147deg,  #2c3e50 0% ,#000000 74%);
+  /* background-color:rgb(255, 255, 255); */
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20%;
+  padding: 0rem 1rem 1rem 1rem;
+  border: 1px solid black;
+  font-size: 2vh;
+  margin-bottom: 10%;
+}
+
+.footer{
+  color: white;
+}

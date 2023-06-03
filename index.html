@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <header>
+        <div class="logo">
+          <img src="baroda-logo.webp" alt="Logo" class="baroda-logo">
+        </div>
+        <nav>
+          <ul class="navbar">
+            <li><a href="index.html" class="active" onclick="changeTab(event, 'home')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L1 12l11 10 11-10L12 2zM4.2 12L12 4.2 19.8 12 12 19.8 4.2 12zm0 0" /></svg> Home</a></li>
+            <li><a href="maps.html" onclick="changeTab(event, 'maps')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 2h20v20H2V2zm17.5 17.5h-15v-15h15v15zm0 0"/></svg> Maps</a></li>
+            <li><a href="gallery.html" onclick="changeTab(event, 'gallery')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 5h-2.08c-.252-.457-.596-.878-1.03-1.214L16 3H8L6.08 3.786c-.434.336-.778.757-1.03 1.214H3c-1.105 0-2 .895-2 2v14c0 1.105.895 2 2 2h18c1.105 0 2-.895 2-2V7c0-1.105-.895-2-2-2zm-1 14H4V7h16v12zm0 0"/></svg> Gallery</a></li>
+            <!-- <li><a href="#contact" onclick="changeTab(event, 'contact')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path d="M43.49 10.178c-4.824-7.924-11.425-8.036-16.657-6.456-5.36-1.87-11.407-1.688-16.706 6.456-7.287 11.925 3.704 23.146 7.65 29.5.546.749 1.16 1.52 1.825 2.325 1.874 1.895 4.177 2.875 6.58 2.875 2.429 0 4.757-.983 6.58-2.875.665-.805 1.28-1.576 1.825-2.325 3.946-6.354 14.938-17.575 7.65-29.5zm-4.76 26.822c-1.203 1.538-3.488 2.5-5.77 2.5-2.282 0-4.567-.962-5.77-2.5-.577-.739-1.126-1.434-1.633-2.082-1.876-2.392-7.142-9.346-3.368-16.738 3.513-5.759 11.758-6.706 16.773-5.348 5.015-1.358 13.26.589 16.774 5.348 3.775 7.392-1.492 14.346-3.367 16.738-.506.648-1.055 1.343-1.632 2.082zm0 0"/></svg> Contact</a></li> -->
+          </ul>
+        </nav>
+      </header>
+   
+   <div class="welcome" id="welcome">Welcome to Baroda</div>
+   
+   
+
+   <div class="Main-data">
+    <h1>About Baroda </h1>
+    <br>
+    <p>Baroda is basically a collective name given to 2 villages :- 
+      <ul class="baroda-m-t">
+        <li>Baroda Thuthan</li>
+        <li>Baroda Mor</li>
+      </ul>
+      <br><br>
+      
+      
+    </p>
+    <h2>Baorda Thuthan</h2>
+    <br>
+    <p>According to Census 2011 information the location code or village code of Baroda Thuthan village is 059646. Baroda Thuthan village is located in Gohana tehsil of Sonipat district in Haryana, India. It is situated 8km away from sub-district headquarter Gohana (tehsildar office) and 44km away from district headquarter Sonipat. As per 2009 stats, Baroda Tuthan is the gram panchayat of Baroda Thuthan village.</p>
+    <p>The total geographical area of village is 852 hectares. Baroda Thuthan has a total population of 4,157 peoples, out of which male population is 2,238 while female population is 1,919. Literacy rate of baroda thuthan village is 66.11% out of which 73.28% males and 57.74% females are literate. There are about 784 houses in baroda thuthan village. Pincode of baroda thuthan village locality is 131304.</p>
+    
+    <br><br>
+    <h2>Baroda Mor</h2>
+    <br>
+    <p>According to Census 2011 information the location code or village code of Baroda Mor village is 059647. Baroda Mor village is located in Gohana tehsil of Sonipat district in Haryana, India. It is situated 8km away from sub-district headquarter Gohana (tehsildar office) and 46km away from district headquarter Sonipat. As per 2009 stats, Baroda Mor village is also a gram panchayat.</p>
+    <p>The total geographical area of village is 2029 hectares. Baroda Mor has a total population of 7,103 peoples, out of which male population is 3,858 while female population is 3,245. Literacy rate of baroda mor village is 64.41% out of which 70.92% males and 56.67% females are literate. There are about 1,297 houses in baroda mor village. Pincode of baroda mor village locality is 131304.
+
+    </p>
+   </div>
+
+   <p class="footer">Made By ASHWIN</p>
+
+   <script>
+      // function changeTab(event, tabName) {
+      //   // Remove the "active" class from all tab links
+      //   var tabLinks = document.querySelectorAll(".navbar li a");
+      //   tabLinks.forEach(function(link) {
+      //     link.classList.remove("active");
+      //   });
+
+      //   // Add the "active" class to the clicked tab link
+      //   event.target.classList.add("active");
+      // } 
+
+      
+
+
+
+      var welcomeDiv = document.getElementById("welcome");
+  var text = welcomeDiv.innerHTML; // Get the initial content of the div
+  var index = 0; // Index to keep track of the character being typed
+
+  function typeText() {
+    welcomeDiv.innerHTML = text.substr(0, index); // Update the div content with the current characters
+
+    index++; // Move to the next character
+
+    if (index > text.length) {
+      index = 0; // Reset the index if it exceeds the length of the text
+    }
+  }
+
+  setInterval(typeText, 200); 
+   </script>
+</body>
+</html>
